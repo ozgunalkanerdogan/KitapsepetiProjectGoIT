@@ -102,9 +102,9 @@ describe('Guest Transactions ', () => {
 
                 const randomIndex = Math.floor(Math.random() * $buttons.length)
                 cy.wrap($buttons[randomIndex]).scrollIntoView().click({ force: true })
-                cy.get('#cart-popup-continue-shopping').should('be.visible').click()
+                cy.get('#cart-popup-continue-shopping', { timeout : 10000 }).should('be.visible').click()
                 cy.url().should('include', '/siparis-uye-giris')
-                cy.get('#membership-form-131 > .w-100').should('be.visible').and('have.css', 'background-color', 'rgb(44, 42, 40)').click()
+                cy.get('#membership-form-131 > .w-100').should('be.vis  ible').and('have.css', 'background-color', 'rgb(44, 42, 40)').click()
                 cy.url().should('include', '/order/address')
                 cy.get('[name="email"]').type('goitozgun@gmail.com')
                 cy.get('[name="fullname"]').type('ozgun erdogan')

@@ -11,6 +11,9 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.41.2",
+    "allure-commandline": "^2.37.0",
+    "allure-cypress": "^3.5.0",
     "cypress": "^15.10.0",
     "cypress-real-events": "^1.15.0"
   }

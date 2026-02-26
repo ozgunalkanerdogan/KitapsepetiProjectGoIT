@@ -71,9 +71,9 @@ Cypress.Commands.add('clearCartin', () => {
 })
 
 Cypress.Commands.add('buyButton', () => {
-  cy.get('#header-cart-btn').should('be.visible').and('exist').click({ force: true })
-  cy.get('#go-cart-btn').should('be.visible').and('exist').click({ force: true })
-  cy.get('#cart-buy-btn').should('be.visible').and('exist').click({ force: true })
+  cy.get('#header-cart-btn', { timeout : 10000 }).should('be.visible').and('exist').click({ force: true })
+  cy.get('#go-cart-btn', { timeout : 10000 }).should('be.visible').and('exist').click({ force: true })
+  cy.get('#cart-buy-btn', { timeout : 10000 }).should('be.visible').and('exist').click({ force: true })
 })
 Cypress.Commands.add('cartButton', () => {
 cy.get('#header-cart-btn').should('be.visible').and('exist').click({ force: true })

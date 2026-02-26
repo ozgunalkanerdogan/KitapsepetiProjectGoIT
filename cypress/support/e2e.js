@@ -7,3 +7,4 @@ Cypress.on('uncaught:exception', (err) => {
   
 });
 
+import "allure-cypress";
