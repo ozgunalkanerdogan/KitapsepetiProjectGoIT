@@ -171,7 +171,7 @@ describe('Cart Options/Control', () => {
         cy.get('#cart-popup-go-cart').should('be.visible').and('exist').click({ force: true })
         cy.get('#clear-cart-btn-129').should('be.visible').and('exist').click({ force: true })
     })
-    it('US04AC9 Random product add to cart', () => {
+    it('US04AC10 Random product add to cart', () => {
         cy.wait(2000)
         cy.get('[id^="product-addcart-button-"]').then(($buttons) => {
 

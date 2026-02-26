@@ -82,7 +82,7 @@ describe('Payment Checks', () => {
 
     })
 
-    it('US05AC6 Opening Payment Page/Payment Button Check', () => {
+    it('US05AC6 Payment Button Activity Check', () => {
         cy.toCart()
         cy.buyButton()
         cy.url().should('include', '/order')
