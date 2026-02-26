@@ -112,115 +112,115 @@ export default new Login()
 
 ## Custom Commands 
 
- - cypress/support/commands.js -
+ cypress/support/commands.js
 
--> cy.visitKitapSepeti()
--> cy.readyLogin()
--> cy.ceviriKurgu()
--> cy.toBook()
--> cy.toCart()
--> cy.clearCart()
--> cy.clearCartin()
--> cy.buyButton()
--> cy.cartButton()
+- cy.visitKitapSepeti()
+- cy.readyLogin()
+- cy.ceviriKurgu()
+- cy.toBook()
+- cy.toCart()
+- cy.clearCart()
+- cy.clearCartin()
+- cy.buyButton()
+- cy.cartButton()
 
 ## Test Scenarios
 
 A. User Login
 
-1 Login Popup
+- Login Popup
 
-2 Login Forms
+- Login Forms
 
-3 Successful Login
+- Successful Login
 
-4 Successful Login Redirect
+- Successful Login Redirect
 
-5 Wrong Email Error
+- Wrong Email Error
 
-6 Wrong Password Error
+- Wrong Password Error
 
-7 Empty Form Validation
+- Empty Form Validation
 
-8 Block After Multiple Attempts
+- Block After Multiple Attempts
 
-9 Forgot Password Button
+- Forgot Password Button
 
 B. Search and Filters
 
-1 Searching with One Character
+- Searching with One Character
 
-2 Specific Search
+- Specific Search
 
-3 Non-existing Product Search
+- Non-existing Product Search
 
-4 Product Items Validation
+- Product Items Validation
 
-5 Add to Cart Button Visibility
+- Add to Cart Button Visibility
 
-6 Sorting Options Check
+- Sorting Options Check
 
-7 Filters Validation
+- Filters Validation
 
-8 Main Search Page Control
+- Main Search Page Control
 
-9 Infinite Scroll
+- Infinite Scroll
 
 C. Product Details & Cart
 
-1 Product List Details
+- Product List Details
 
-2 Add To Cart
+- Add To Cart
 
-3 Book Information Validation
+- Book Information Validation
 
-4 Price and Add To Cart Position
+- Price and Add To Cart Position
 
-5 Add To Cart Notification
+- Add To Cart Notification
 
-6 Cart Changes
+- Cart Changes
 
 D. Cart Control
 
-1 Cart Access
+- Cart Access
  
-2 Cart Item Information
+- Cart Item Information
 
-3 Cart Total Price Verification
+- Cart Total Price Verification
 
-4 Quantity Increase & Price Check
+- Quantity Increase & Price Check
 
-5 Item Deletion
+- Item Deletion
 
-6 Clear Cart Button
+- Clear Cart Button
 
-7 Empty Cart Page Validation
+- Empty Cart Page Validation
 
-8 Buy Button Check
+- Buy Button Check
 
-9 Add to Cart Opens Cart
+- Add to Cart Opens Cart
 
-10 Random Product Add to Cart
+- Random Product Add to Cart
 
 E. Payment Checks
 
-1 Open Payment Page (Address Step)
+- Open Payment Page (Address Step)
 
-2 Open Payment Page (Payment Step)
+- Open Payment Page (Payment Step)
 
-3 Cargo Options Validation
+- Cargo Options Validation
 
-4 Payment Methods Validation
+- Payment Methods Validation
 
-5 Payment Information Form Validation
+- Payment Information Form Validation
 
-6 Payment Button Control
+- Payment Button Control
 
-7 Payment Error Validation
+- Payment Error Validation
 
-8 Total Price Verification
+- Total Price Verification
 
-- F. Guest Transactions
+F. Guest Transactions
 
 - Random Guest Payment
 
