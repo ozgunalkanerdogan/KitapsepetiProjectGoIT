@@ -235,8 +235,12 @@ F. Guest Transactions
 - Address → Order Flow
 
 
-##
+---
 
-      Özgün Alkan Erdoğan
-  Junior QA Automation Engineer
-Cypress | JavaScript | E2E Testing
+<div align="center">
+
+    Özgün Alkan Erdoğan
+Junior QA Automation Engineer  
+Cypress | JavaScript | E2E Testing  
+
+</div>
