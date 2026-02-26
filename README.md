@@ -53,17 +53,20 @@ https://www.kitapsepeti.com
 
 ## Page Object Model (POM)
 
-"class Login {
-    url = 'https://www.kitapsepeti.com/'
-    emailHeader = '#header-email'
-    passwordHeader = '#header-password'
-    memberLogin = '.member-login-btn'
-    loginButton = '#login-btn-322'
-    register = '#register-btn-322'
-    forgetPassword = '.flex-wrap > .text-gray'
-    rememberMe = 'form.w-100 > .flex-wrap > .d-flex'
-    email = 'webozgun@gmail.com'
-    password = '123Ozgun*'
+```javascript
+class Login {
+  url = 'https://www.kitapsepeti.com/'
+  emailHeader = '#header-email'
+  passwordHeader = '#header-password'
+  memberLogin = '.member-login-btn'
+  loginButton = '#login-btn-322'
+  register = '#register-btn-322'
+  forgetPassword = '.flex-wrap > .text-gray'
+  rememberMe = 'form.w-100 > .flex-wrap > .d-flex'
+  email = 'webozgun@gmail.com'
+  password = '123Ozgun*'
+}
+
 
     navigateUrl() {
         cy.visit(this.url);
@@ -101,8 +104,7 @@ https://www.kitapsepeti.com
     clickloginButton(loginButton) {
         cy.get(this.loginButton).should('be.visible').and('exist').click()
     }
-    
-}"
+    ```
 
 ## Custom Commands 
 
