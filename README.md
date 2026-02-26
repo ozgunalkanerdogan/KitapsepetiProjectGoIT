@@ -239,7 +239,7 @@ F. Guest Transactions
 
 <div align="center">
 
-    Özgün Alkan Erdoğan
+## Özgün Alkan Erdoğan
 Junior QA Automation Engineer  
 Cypress | JavaScript | E2E Testing  
 
