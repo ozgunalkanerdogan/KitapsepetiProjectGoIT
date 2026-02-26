@@ -35,24 +35,21 @@ https://www.kitapsepeti.com
 ---
 
 ## Project Structure
-cypress/
-│
-├── e2e/
-│ ├── US01-user.login.cy.js
-│ ├── US02-search.cy.js
-│ ├── US03-details-cart.cy.js
-│ ├── US04-cart-control.cy.js
-│ ├── US05-payment.cy.js
-│ ├── US06-guest.cy.js
-│
-├── fixtures/
-│ └── login.json
-│
-├── pages/
-│ └── Login.js
-│
-├── support/
-│ └── commands.js
+
+- cypress/
+  - e2e/
+    - US01-user.login.cy.js
+    - US02-search.cy.js
+    - US03-details-cart.cy.js
+    - US04-cart-control.cy.js
+    - US05-payment.cy.js
+    - US06-guest.cy.js
+  - fixtures/
+    - login.json
+  - pages/
+    - Login.js
+  - support/
+    - commands.js
 
 ## Page Object Model (POM)
 
