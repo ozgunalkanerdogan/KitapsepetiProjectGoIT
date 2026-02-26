@@ -34,7 +34,7 @@ https://www.kitapsepeti.com
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 cypress/
 │
 ├── e2e/
