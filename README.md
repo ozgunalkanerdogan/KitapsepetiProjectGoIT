@@ -104,7 +104,7 @@ class Login {
     clickloginButton(loginButton) {
         cy.get(this.loginButton).should('be.visible').and('exist').click()
     }
-    ```
+    
 
 ## Custom Commands 
 
@@ -216,19 +216,19 @@ E. Payment Checks
 
 8 Total Price Verification
 
-F. Guest Transactions
+- F. Guest Transactions
 
-1 Random Guest Payment
+- Random Guest Payment
 
-2 Continue as Guest Button
+- Continue as Guest Button
 
-3 Guest → Address Form
+- Guest → Address Form
 
-4 Address Information Validation
+- Address Information Validation
 
-5 Blank Form Error
+- Blank Form Error
 
-6 Address → Order Flow
+- Address → Order Flow
 
 
 ##
