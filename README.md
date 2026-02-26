@@ -104,7 +104,9 @@ class Login {
     clickloginButton(loginButton) {
         cy.get(this.loginButton).should('be.visible').and('exist').click()
     }
-}```
+}
+export default new Login()
+```
 
     
 
