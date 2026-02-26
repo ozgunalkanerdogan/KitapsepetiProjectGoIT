@@ -65,7 +65,7 @@ class Login {
   rememberMe = 'form.w-100 > .flex-wrap > .d-flex'
   email = 'webozgun@gmail.com'
   password = '123Ozgun*'
-}
+
 
 
     navigateUrl() {
@@ -104,6 +104,7 @@ class Login {
     clickloginButton(loginButton) {
         cy.get(this.loginButton).should('be.visible').and('exist').click()
     }
+}
     ```
     
 
